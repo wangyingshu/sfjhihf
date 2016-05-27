@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
+import android.widget.Button;
 
 import java.util.ArrayList;
 
@@ -17,6 +18,7 @@ public class Main2 extends Activity {
     private MainActivity mainActivity = new MainActivity();
     private ArrayList<WysBean>wysBeen = mainActivity.getArrayList();
     private FloatingActionButton floatingActionButton;
+    private Button button111;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
